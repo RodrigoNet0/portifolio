@@ -1,4 +1,7 @@
 import "./Card.css";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
 function Card () {
@@ -11,9 +14,9 @@ function Card () {
         <p>Software Developer</p>
         <section>
         <ul>
-            <li>Instagram</li>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
+            <li><a href="#"><FaInstagram size={40}/></a></li>
+            <li><a href="#"><FaLinkedinIn size={40}/></a></li>
+            <li><a href="#"><FaGithub size={40}/></a></li>
         </ul>
         </section>
     </div>

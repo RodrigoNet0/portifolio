@@ -1,0 +1,9 @@
+.title-about{
+margin-top: 15px;
+text-shadow: 0 2px 2px  rgb(0,241,255);
+box-shadow: 0 4px 2px -2px lightblue;
+}
+
+.about{
+    margin-top: 15px;
+}

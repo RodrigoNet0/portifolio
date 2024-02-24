@@ -6,24 +6,26 @@ import { FaGithub } from "react-icons/fa";
 
 function Card () {
     return ( 
-        <>
-<div className="container-card">
-    <div className="img-name">
+        <main>
+<div>
+    <div>
+        <div className="container-img">
         <img src="https://avatars.githubusercontent.com/u/134714036?v=4" />
-        <h1>Rodrigo Neto</h1>
+        <h1 className="name-title">Rodrigo Neto</h1>
         <p>Software Developer</p>
+        </div>
         <section>
         <ul>
-            <li><a href="#"><FaInstagram size={40}/></a></li>
-            <li><a href="#"><FaLinkedinIn size={40}/></a></li>
-            <li><a href="#"><FaGithub size={40}/></a></li>
+            <li><a href="#"><FaInstagram size={25}/></a></li>
+            <li><a href="#"><FaLinkedinIn size={25}/></a></li>
+            <li><a href="#"><FaGithub size={25}/></a></li>
         </ul>
         </section>
     </div>
     
 </div>
 
-        </>
+        </main>
     );
 }
 

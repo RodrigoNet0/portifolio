@@ -1,9 +1,25 @@
-.title-about{
-margin-top: 15px;
-text-shadow: 0 2px 2px  rgb(0,241,255);
-box-shadow: 0 4px 2px -2px lightblue;
+img{
+    width: 250px;
+    border-radius: 20px;
+    border: 3px solid white;
+
 }
 
-.about{
-    margin-top: 15px;
+.container-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    width: 100%;
+
 }
+
+
+.about{
+    color: white;
+    width: 50%;
+}
+

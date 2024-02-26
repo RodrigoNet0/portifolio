@@ -10,9 +10,9 @@ function App() {
     <>
       <Card />
 <br/>
-      <About />
- <br />
-      <Skills />     
+     {/* <About />
+  <br />*/}
+      {/*<Skills />   */}  
     </>
   )
 }

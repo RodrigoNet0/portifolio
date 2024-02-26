@@ -30,3 +30,16 @@ a{
 a:hover{
     color: blue;
 }
+
+@media screen and (max-width: 500px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    ul,li,a{
+        flex-direction: column;
+        width: 90%;
+    }
+}

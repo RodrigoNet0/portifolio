@@ -11,12 +11,12 @@ function App() {
 
   return (
     <>
-      {/*<Card />*/}
+      <Card />
 <br/>
-     {/* <About />
-  <br />*/}
-      {/*<Skills />   */}  
-      <Projets />
+      <About />
+  <br />
+      <Skills />  
+     {/* <Projets />*/}
     </>
   )
 }

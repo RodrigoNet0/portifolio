@@ -31,7 +31,7 @@ a:hover{
     color: blue;
 }
 
-@media screen and (max-width: 500px){
+@media  (max-width: 500px){
     header{
         flex-direction: column;
         justify-content: center;

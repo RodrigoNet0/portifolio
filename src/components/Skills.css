@@ -16,6 +16,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    text-align: center;
   }
 
   .li-skills{
@@ -25,7 +27,7 @@
   
   .card-content {
     font-size: 18px;
-    color: #333;
+    color: #06858c;
     width: 90vw;
     height: 100px;
   }
@@ -40,11 +42,15 @@
     .container-skills{
       flex-direction: column;
       width: 90%;
+      text-align: center;
+      list-style: none;
     }
     .container-card, .card-content{
       width: 90%;
       flex-direction: column;
       justify-content: center;
       overflow: hidden;
+      text-align: center;
+      list-style: none;
     }
   }

@@ -9,7 +9,7 @@ function About (){
 
 <p className="about">
 Olá, tudo bem? Me chamo Rodrigo Neto e sou <strong>desenvolvedor de software.</strong> 
- Minha paixão pela tecnologia surgiu muito cedo. Sempre gostei de jogos e computadores, 
+  Minha paixão pela tecnologia surgiu muito cedo. Sempre gostei de jogos e computadores, 
  aquilo me fascinava. Eu sempre me perguntava como tudo aquilo era feito. 
  No entanto, o destino adiou esse sonho e tive que trabalhar em outras áreas, 
  mas sempre com o mesmo pensamento: “Como tudo aquilo era feito?”. Agora, aqui estou, realizando um sonho.

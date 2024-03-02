@@ -1,0 +1,40 @@
+.container-skills {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Garante que o contêiner se ajuste ao tamanho das imagens */
+}
+
+.title-skills{
+    color: white;
+    text-align: center;
+}
+
+.front-skills {
+    display: flex;
+    animation: scrollRight 50s linear infinite; /* Ajusta a velocidade da animação */
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.img-skills {
+    width: 150px; /* Aumenta o tamanho das imagens */
+    height: auto; /* Mantém a proporção */
+    margin-right: 20px; /* Espaçamento entre as imagens */
+}
+
+@media only screen and (max-width: 768px) {
+    .front-skills {
+        animation-duration: 30s; /* Reduz a velocidade da animação para dispositivos móveis */
+    }
+    
+    .img-skills {
+        width: 100px; /* Reduz o tamanho das imagens para dispositivos móveis */
+    }
+}

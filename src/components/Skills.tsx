@@ -14,7 +14,6 @@ function Skills (){
         <img className="img-skills" src="https://th.bing.com/th/id/R.c502658a509d27b53679b3ef73c0d82f?rik=dFP%2b9LyCq64MMg&pid=ImgRaw&r=0" alt="node"/>
         <img className="img-skills" src="https://th.bing.com/th/id/R.d638bd34b425dec39792d4a81189eddf?rik=2aVUd2lZxFKkUA&pid=ImgRaw&r=0" alt="express"/>
         <img className="img-skills" src="https://picx.zhimg.com/v2-0117aac88b141a49021570df72b70d67_720w.jpg?source=172ae18b" alt="postgreSQL"/>
-        
     </div>
 </div>
 

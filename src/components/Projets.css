@@ -25,6 +25,10 @@
   .card-container {
     width: calc(100% - 10px); /* Aumentamos a largura para acomodar a imagem */
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .card {
@@ -46,15 +50,38 @@
   .card p {
     margin-bottom: 0;
   }
+
+  .button-review{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(0,241,255);
+    color: white;
+  }
+  .button-review:hover{
+    background-color: white;
+    color: rgb(0,241,255);
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: white;
+    color: rgb(0,241,255);
+  }
   
   /* Media query para dispositivos móveis */
   @media (max-width: 500px) {
-    .card-container, .project-img {
+    .card-container, .project-img, .button-review {
       display: flex;
       flex-direction: column;
       justify-content> center;
       align-items: center;
       width: calc(100% - 20px);
+      overflow: hidden;
     }
   }
   

@@ -64,11 +64,11 @@
     background-color: white;
     color: rgb(0,241,255);
   }
-  a{
+  .a-bu{
     color: white;
     text-decoration: none;
   }
-  a:hover{
+  .a-bu:hover{
     background-color: white;
     color: rgb(0,241,255);
   }

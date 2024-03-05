@@ -1,11 +1,13 @@
 import  "./About.css";
+import  picture from "./minhafotosemfundo.jpeg";
+
 
 function About (){
     return(
         <main>
             <div className="container-about">
                 
-                <img className="img-about" src="https://avatars.githubusercontent.com/u/134714036?v=4" alt="my picture"/>
+                <img className="img-about" src={picture} alt="my picture"/>
 
 <p className="about">
 Olá, tudo bem? Me chamo Rodrigo Neto e sou <strong>desenvolvedor de software.</strong> 

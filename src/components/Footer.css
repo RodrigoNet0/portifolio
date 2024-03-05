@@ -1,0 +1,16 @@
+.title-footer{
+    color: white;
+}
+
+.title-h2{
+    color: white;
+}
+
+.project-git{
+    color: white;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}

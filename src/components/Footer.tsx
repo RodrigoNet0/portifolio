@@ -5,6 +5,7 @@ function Footer (){
         <main>
 <div className="container-footer">
     <h1 className="title-footer">Contact</h1>
+    
 </div>
         </main>
     );

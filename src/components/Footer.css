@@ -2,15 +2,39 @@
     color: white;
 }
 
-.title-h2{
+.title-h4{
     color: white;
 }
 
 .project-git{
     color: white;
 }
+.a-f{
+    color: white;
+    text-decoration: none;
+}
 
 .container-footer{
     display: flex;
     justify-content: space-around;
+    background: rgb(31,30,30);
+background: linear-gradient(0deg, rgba(31,30,30,1) 100%, rgba(254,254,254,1) 100%);
+}
+
+.lets-work{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media only screen and (max-width 768px){
+    .container-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      padding: 10px; 
+      margin-top: 10px;
+      font-weight: 10px;
+    }
 }

@@ -11,7 +11,8 @@ function App() {
 
   return (
     <>
-   {/*<Card />
+  {/* <Card />
+   <br /> <br />
       <About />
   <Projets />
   <Skills />

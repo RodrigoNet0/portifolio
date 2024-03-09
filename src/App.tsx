@@ -6,17 +6,21 @@ import Skills from "./components/Skills.tsx";
 import Projets from "./components/Projets.tsx";
 import Footer from "./components/Footer.tsx";
 import Object from "./components/Object.tsx";
+
+
+
+
 function App() {
   
 
   return (
     <>
-  {/* <Card />
+   <Card />
    <br /> <br />
       <About />
   <Projets />
   <Skills />
-  <Footer />*/}
+  <Footer />
   <Object/>
     </>
   )

@@ -1,22 +1,34 @@
 .title-obj{
     color: white;
+   
 }
 
 .about-obj{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .container-obj{
-    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: rgb(31,30,30);
     background: linear-gradient(0deg, rgba(31,30,30,1) 100%, rgba(254,254,254,1) 100%);
     border: 2px solid transparent;
-    border-radius: 100px 10px;
+    border-radius: 2px;
     color: #fff;
     padding: 1em;
     box-shadow: 0px 0px 10px white;
     text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    .container-obj{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+       
+    }
 }

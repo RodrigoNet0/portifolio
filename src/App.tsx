@@ -19,9 +19,12 @@ function App() {
    <br /> <br />
       <About />
   <Projets />
-  <Skills />
-  <Footer />
   <Object/>
+  <br />
+  <Skills />
+  
+  <br />
+  <Footer />
     </>
   )
 }

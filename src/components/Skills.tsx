@@ -3,7 +3,7 @@ import "./Skills.css";
 function Skills (){
     return (
         <main>
-      <h1 className="title-skills">Technical Skills</h1>
+      <h1 className="title-skills">Skills Técnicas</h1>
 <div className="container-skills">
     <div className="front-skills">
         <img className="img-skills" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="js"/>

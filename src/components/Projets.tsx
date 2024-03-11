@@ -9,7 +9,7 @@ function Projets(){
     return(
         <body>
             <h1 className="title-project">
-                Projets
+                Projetos
             </h1>
             <div className="container">
                 <ul>

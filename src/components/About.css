@@ -1,10 +1,11 @@
 .img-about {
-    width: 100%; /* Adjusted to make the image responsive */
-    max-width: 500px; /* Added max-width to maintain the image size on larger screens */
+    width: 100%; 
+    max-width: 500px; 
     border-radius: 50%;
     object-fit: cover;
     filter: brightness(120%) saturate(150%);
-    float: none; /* Removed float */
+    animation: floatAnimation 1s ease-in-out infinite alternate; 
+    box-shadow: 1px 2px 2px blue;
 }
 
 .container-about {
@@ -28,7 +29,7 @@
 }
 
 a {
-    color: white;
+    color: blue;
 }
 
 a:hover {
@@ -51,8 +52,17 @@ a:hover {
 
     img {
         width: 200px;
-        float: none; /* Adjusted to remove float */
-        margin-top: 20px; /* Added margin-top to move image from top to bottom */
-        margin-bottom: 20px; /* Added margin-bottom for spacing */
+        float: none; 
+        margin-top: 20px; 
+        margin-bottom: 20px; 
     }
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }

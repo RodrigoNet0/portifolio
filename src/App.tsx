@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import About  from "./components/About.tsx";
 import Skills from "./components/Skills.tsx";

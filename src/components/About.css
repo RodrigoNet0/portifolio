@@ -1,14 +1,15 @@
-
-.img-about{
-    width: 500px;
+.img-about {
+    width: 100%; /* Adjusted to make the image responsive */
+    max-width: 500px; /* Added max-width to maintain the image size on larger screens */
     border-radius: 50%;
     object-fit: cover;
     filter: brightness(120%) saturate(150%);
+    float: none; /* Removed float */
 }
 
 .container-about {
-    background: rgb(31,30,30);
-    background: linear-gradient(0deg, rgba(31,30,30,1) 100%, rgba(254,254,254,1) 100%);
+    background: rgb(31, 30, 30);
+    background: linear-gradient(0deg, rgba(31, 30, 30, 1) 100%, rgba(254, 254, 254, 1) 100%);
     display: flex;
     align-items: center;
     padding: 15px;
@@ -17,8 +18,8 @@
 
 .about {
     color: white;
-
 }
+
 .icons {
     list-style: none;
     display: flex;
@@ -34,29 +35,24 @@ a:hover {
     color: rgba(3, 192, 255, 0.358);
 }
 
-
-
-
-
 @media (max-width: 500px) {
     .container-about {
-        width: 100%;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
 
     .about {
-        flex-direction: column;
         border: 1px solid white;
         padding: 10px;
         border-radius: 20px;
         text-align: center;
-        width: 200%;
         width: 300px;
-        
-    }
-    img{
-        width: 200px;
     }
 
+    img {
+        width: 200px;
+        float: none; /* Adjusted to remove float */
+        margin-top: 20px; /* Added margin-top to move image from top to bottom */
+        margin-bottom: 20px; /* Added margin-bottom for spacing */
+    }
 }
